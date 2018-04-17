@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
+using AlterianEMAPI_WebForm.BizLogic;
 
 namespace AlterianEMAPI_WebForm
 {
@@ -11,7 +8,9 @@ namespace AlterianEMAPI_WebForm
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            todo:// login process is not implemented
+            var emList = new EMList();
+            emList.Download();
         }
     }
 }
